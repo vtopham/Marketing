@@ -126,39 +126,136 @@ table {
   border-collapse: collapse;
   border-spacing: 0;
 }
+* {
+  box-sizing: border-box;
+  max-width: 100%;
+}
 body {
   width: 800px;
   margin: 0 auto;
 }
-.header {
+a {
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+section {
+  margin: 50px 50px;
+}
+header {
   height: 50px;
   background: #00887A;
   display: flex;
   align-items: center;
 }
-.header nav {
+header nav {
   display: flex;
   justify-content: space-between;
   width: 100%;
   padding: 0 2%;
 }
-.header .links {
+header .links {
   display: flex;
-  width: 75%;
+  width: 70%;
   justify-content: space-between;
   align-items: center;
 }
-.header a,
-.header h1 {
+header a,
+header h1 {
   color: #FFFFFF;
-  text-decoration: none;
   font-family: 'Raleway';
 }
-.header h1 {
-  border: 2px solid white;
+header h1 {
+  border: 2px solid #FFFFFF;
   border-radius: 5px;
   padding: 1%;
 }
-.header a:hover {
+footer {
+  height: 100px;
+  background: #77A6F7;
+  display: flex;
+  align-items: center;
+}
+footer nav {
+  height: 100px;
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  width: 100%;
+}
+footer .links {
+  height: 100px;
+  padding: 2%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  width: 100%;
+}
+footer a {
+  color: #FFCCBC;
+  font-family: 'Raleway';
+}
+footer a:hover {
   text-decoration: underline;
+}
+.introduction {
+  margin: 0 5%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.introduction div {
+  width: 50%;
+}
+.introduction div img {
+  border-radius: 10px;
+}
+.introduction h1 {
+  font-family: 'Source Serif Pro';
+  font-size: 4rem;
+  color: #FFCCBC;
+}
+.landing-description {
+  margin: 0 5%;
+}
+.landing-description .section-body {
+  background: #D3E3Fc;
+  border-radius: 10px;
+  padding: 2%;
+}
+.landing-description h2 {
+  font-size: 1.6rem;
+  color: #77A6F7;
+  font-family: 'Source Serif Pro';
+  margin-bottom: 10px;
+}
+.landing-description p {
+  padding: 2% 0;
+  color: #333333;
+  font-family: 'Raleway';
+}
+.landing-description .testimonials {
+  display: flex;
+  justify-content: space-between;
+}
+.landing-description .testimonials div {
+  padding: 0 1%;
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border: 1px solid #FFCCBC;
+  border-radius: 10px;
+}
+.landing-description .testimonials .quote {
+  font-style: italic;
+  color: gray;
+  text-align: right;
+}
+.introduction,
+.landing-description {
+  margin-top: 4%;
+  margin-bottom: 4%;
+  padding: 2%;
 }
