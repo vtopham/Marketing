@@ -140,6 +140,34 @@ a {
 a:hover {
   text-decoration: underline;
 }
+h1 {
+  font-family: 'Source Serif Pro';
+  font-size: 4rem;
+  color: #77A6F7;
+}
+@media (max-width: 800px) {
+  h1 {
+    font-size: 2.5rem;
+  }
+}
+h2 {
+  font-size: 1.6rem;
+  color: #77A6F7;
+  font-family: 'Source Serif Pro';
+  margin-bottom: 10px;
+}
+h3 {
+  font-size: 1.2rem;
+  color: #77A6F7;
+  font-family: 'Raleway';
+  margin-bottom: 10px;
+}
+p {
+  padding: 2% 0;
+  color: #333333;
+  font-family: 'Raleway';
+  line-height: 1.2rem;
+}
 header {
   display: flex;
   flex-direction: row;
@@ -184,6 +212,7 @@ header h1 {
   border: 2px solid #FFCCBC;
   border-radius: 5px;
   padding: 1% 2%;
+  font-size: 1.2rem;
 }
 @media (max-width: 800px) {
   header h1 {
@@ -253,16 +282,6 @@ footer a:hover {
 .introduction div img {
   border-radius: 10px;
 }
-.introduction h1 {
-  font-family: 'Source Serif Pro';
-  font-size: 4rem;
-  color: #77A6F7;
-}
-@media (max-width: 800px) {
-  .introduction h1 {
-    font-size: 2.5rem;
-  }
-}
 .landing-description {
   margin: 0 5%;
 }
@@ -280,18 +299,6 @@ footer a:hover {
 }
 .landing-description .quote p {
   padding-top: 0;
-}
-.landing-description h2 {
-  font-size: 1.6rem;
-  color: #77A6F7;
-  font-family: 'Source Serif Pro';
-  margin-bottom: 10px;
-}
-.landing-description p {
-  padding: 2% 0;
-  color: #333333;
-  font-family: 'Raleway';
-  line-height: 1.25rem;
 }
 .landing-description .testimonials {
   display: flex;
@@ -347,4 +354,25 @@ footer a:hover {
 .call-to-action button:hover {
   background-color: #FFFFFF;
   color: #D3E3Fc;
+}
+.container-wrapper {
+  margin: 0 5%;
+}
+.watering-header {
+  margin: 2% 0;
+}
+.watering-content {
+  padding-top: 2%;
+  border-top: 2px solid #FFCCBC;
+}
+.care-container {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 2%;
+}
+.care-container img {
+  width: 25%;
+  height: 100%;
+  align-self: center;
+  margin-right: 10px;
 }
