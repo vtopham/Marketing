@@ -1,0 +1,50 @@
+.container-wrapper {
+    margin: @mainMargin;
+}
+
+.watering-header {
+    margin: 4% 0;
+
+    img {
+        border-radius: 10px;
+    }
+}
+
+.watering-content{ 
+    padding-top: 2%;
+    border-top: 2px solid @peach;
+
+    h2 {
+        margin-top: 2%;
+        margin-bottom: 0;
+    }
+}
+.care-container {
+    display: flex;
+    justify-content: space-between;
+    // .help();
+
+    margin-bottom: 2%;
+
+    img {
+        width: 30%;
+        height: 100%;
+        align-self: center;
+        margin-right: 20px;
+
+        @media @tablet {
+            display: none;
+        }
+    }
+
+.care-instructions {
+    p {
+        padding-top: 1%;
+
+        @media @mobile {
+            padding-top: 2%;
+        }
+    }
+}
+
+}
