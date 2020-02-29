@@ -4,11 +4,26 @@
     justify-content: space-between;
     align-items: center;
 
+    @media @mobile {
+        flex-direction: column;
+    }
+
     div {
         width: 50%;
+        
+        @media @tablet {
+            width: 45%;
+        }
+
+        @media @mobile {
+            width: 100%;
+            margin-bottom: 20px;
+            text-align: center;
+        }
 
         img {
             border-radius: 10px;
+
         }
     }
 
@@ -16,6 +31,10 @@
         font-family: @headerFont;
         font-size: 4rem;
         color: @mediumBlue;
+
+        @media @tablet {
+            font-size: 2.5rem;
+        }
     }
 } //end introduction
 
@@ -64,7 +83,9 @@
         .flexIt();
         justify-content: space-between;
         
-
+        @media @mobile {
+            flex-direction: column;
+        }
         div {
             padding: 2%;
             width: 30%;
@@ -74,6 +95,11 @@
 
             border: 2px solid @peach;
             border-radius: 10px;
+
+            @media @mobile {
+                width: 100%;
+                margin-bottom: 2%;
+            }
 
         }
 
