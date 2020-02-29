@@ -144,16 +144,19 @@ header {
   height: 50px;
   background: #00887A;
   display: flex;
+  flex-direction: row;
   align-items: center;
 }
 header nav {
   display: flex;
+  flex-direction: row;
   justify-content: space-between;
   width: 100%;
   padding: 0 2%;
 }
 header .links {
   display: flex;
+  flex-direction: row;
   width: 70%;
   justify-content: space-between;
   align-items: center;
@@ -172,6 +175,7 @@ footer {
   height: 100px;
   background: #00887A;
   display: flex;
+  flex-direction: row;
   align-items: center;
 }
 footer nav {
@@ -199,6 +203,7 @@ footer a:hover {
 .introduction {
   margin: 0 5%;
   display: flex;
+  flex-direction: row;
   justify-content: space-between;
   align-items: center;
 }
@@ -245,6 +250,7 @@ footer a:hover {
 }
 .landing-description .testimonials {
   display: flex;
+  flex-direction: row;
   justify-content: space-between;
 }
 .landing-description .testimonials div {
