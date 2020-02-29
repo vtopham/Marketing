@@ -140,9 +140,6 @@ a {
 a:hover {
   text-decoration: underline;
 }
-section {
-  margin: 50px 50px;
-}
 header {
   height: 50px;
   background: #00887A;
@@ -163,17 +160,17 @@ header .links {
 }
 header a,
 header h1 {
-  color: #FFFFFF;
+  color: #FFCCBC;
   font-family: 'Raleway';
 }
 header h1 {
-  border: 2px solid #FFFFFF;
+  border: 2px solid #FFCCBC;
   border-radius: 5px;
-  padding: 1%;
+  padding: 1% 2%;
 }
 footer {
   height: 100px;
-  background: #77A6F7;
+  background: #00887A;
   display: flex;
   align-items: center;
 }
@@ -214,15 +211,25 @@ footer a:hover {
 .introduction h1 {
   font-family: 'Source Serif Pro';
   font-size: 4rem;
-  color: #FFCCBC;
+  color: #77A6F7;
 }
 .landing-description {
   margin: 0 5%;
 }
 .landing-description .section-body {
-  background: #D3E3Fc;
   border-radius: 10px;
-  padding: 2%;
+  padding: 0 2%;
+}
+.landing-description .blurb {
+  border: 2px solid #FFCCBC;
+  border-radius: 10px;
+}
+.landing-description .quote {
+  padding: 0;
+  margin-top: 0;
+}
+.landing-description .quote p {
+  padding-top: 0;
 }
 .landing-description h2 {
   font-size: 1.6rem;
@@ -234,18 +241,19 @@ footer a:hover {
   padding: 2% 0;
   color: #333333;
   font-family: 'Raleway';
+  line-height: 1.25rem;
 }
 .landing-description .testimonials {
   display: flex;
   justify-content: space-between;
 }
 .landing-description .testimonials div {
-  padding: 0 1%;
+  padding: 2%;
   width: 30%;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  border: 1px solid #FFCCBC;
+  border: 2px solid #FFCCBC;
   border-radius: 10px;
 }
 .landing-description .testimonials .quote {
@@ -258,4 +266,23 @@ footer a:hover {
   margin-top: 4%;
   margin-bottom: 4%;
   padding: 2%;
+}
+.call-to-action {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.call-to-action button {
+  width: 100px;
+  height: 50px;
+  font-family: 'Raleway';
+  color: #FFFFFF;
+  font-size: 1.2rem;
+  border-radius: 10px;
+  background-color: #D3E3Fc;
+  border: 1px solid #D3E3Fc;
+}
+.call-to-action button:hover {
+  background-color: #FFFFFF;
+  color: #D3E3Fc;
 }
