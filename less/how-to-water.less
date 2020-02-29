@@ -31,11 +31,19 @@
         height: 100%;
         align-self: center;
         margin-right: 20px;
+
+        @media @tablet {
+            display: none;
+        }
     }
 
 .care-instructions {
     p {
         padding-top: 1%;
+
+        @media @mobile {
+            padding-top: 2%;
+        }
     }
 }
 

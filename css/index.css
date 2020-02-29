@@ -382,6 +382,16 @@ footer a:hover {
   align-self: center;
   margin-right: 20px;
 }
+@media (max-width: 800px) {
+  .care-container img {
+    display: none;
+  }
+}
 .care-container .care-instructions p {
   padding-top: 1%;
+}
+@media (max-width: 500px) {
+  .care-container .care-instructions p {
+    padding-top: 2%;
+  }
 }
