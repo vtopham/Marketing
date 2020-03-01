@@ -131,7 +131,6 @@ table {
   max-width: 100%;
 }
 body {
-  width: 800px;
   margin: 0 auto;
 }
 a {
@@ -191,7 +190,7 @@ header nav {
 header .links {
   display: flex;
   flex-direction: row;
-  width: 70%;
+  width: 60%;
   justify-content: space-between;
   align-items: center;
 }
@@ -200,6 +199,7 @@ header .links {
     flex-direction: column;
     align-items: flex-start;
     padding: 1% 0;
+    width: 70%;
   }
 }
 header a,
@@ -340,19 +340,34 @@ footer a:hover {
   flex-direction: column;
   align-items: center;
 }
+.call-to-action h2 {
+  font-size: 3rem;
+}
+@media (max-width: 800px) {
+  .call-to-action h2 {
+    font-size: 1.6rem;
+  }
+}
 .call-to-action button {
-  width: 100px;
-  height: 50px;
+  width: 175px;
+  height: 80px;
+  font-size: 1.6rem;
   font-family: 'Raleway';
   color: #FFFFFF;
-  font-size: 1.2rem;
   border-radius: 10px;
-  background-color: #D3E3Fc;
-  border: 1px solid #D3E3Fc;
+  background-color: #77A6F7;
+  border: 1px solid #77A6F7;
+}
+@media (max-width: 800px) {
+  .call-to-action button {
+    width: 100px;
+    height: 50px;
+    font-size: 1.2rem;
+  }
 }
 .call-to-action button:hover {
   background-color: #FFFFFF;
-  color: #D3E3Fc;
+  color: #77A6F7;
 }
 .container-wrapper {
   margin: 0 5%;
