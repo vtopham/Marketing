@@ -133,11 +133,6 @@ table {
 body {
   margin: 0 auto;
 }
-@media (max-width: 800px) {
-  body {
-    width: 800px;
-  }
-}
 a {
   text-decoration: none;
 }
@@ -360,8 +355,8 @@ footer a:hover {
   font-family: 'Raleway';
   color: #FFFFFF;
   border-radius: 10px;
-  background-color: #D3E3Fc;
-  border: 1px solid #D3E3Fc;
+  background-color: #77A6F7;
+  border: 1px solid #77A6F7;
 }
 @media (max-width: 800px) {
   .call-to-action button {
@@ -372,7 +367,7 @@ footer a:hover {
 }
 .call-to-action button:hover {
   background-color: #FFFFFF;
-  color: #D3E3Fc;
+  color: #77A6F7;
 }
 .container-wrapper {
   margin: 0 5%;
