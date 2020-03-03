@@ -413,6 +413,7 @@ footer a:hover {
 .call-to-action button:hover {
   background-color: #FFFFFF;
   color: #77A6F7;
+  border: 1px solid #FFFFFF;
 }
 .signUpPage {
   margin: 0 auto;
