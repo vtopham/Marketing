@@ -1,37 +1,64 @@
-.signUpPage{
-    margin: 0 auto;
-    height: 100%;
-    border: 2px solid black;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-}
-.signUpBody{
-    .flexIt();
-    justify-content: space-evenly;
 
-    .shelfPlant{
-        max-width: 30%;
-        height: auto;
+.signUpContent{
+    .flexIt();
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: @mainMargin;
+    .title{
+        width: 100%;
+        text-align: center;
+        margin: 5% 0;
     }
-    .signUpContent{
+}
+
+.listOfFeatures{
+    height: 95%;
+    .flexIt();
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    .feature{
+       
+        margin: 4% 0;
+        width: 100%;
         .flexIt();
-        flex-direction: column;
         justify-content: space-evenly;
         align-items: center;
-        max-width: 100%;
-        height: 100%;
-        background-image: url("img\bigLeaf.jpg");
-        
-        .signUpForm{
-            display: flex;
-            flex-direction: column;
-            justify-content: space-between;
-            align-items: center;
+        .featureText{
+            width: 40%;
+            padding: 10% 10%;
+             border: 2px solid @peach;
+             border-radius: 5px;
         }
-        
+        .featureImg{
+            max-width: 40%;
+            height: auto;
+            border-radius: 12px;
+        }
     }
 
 }
+.newFeaturesSection{
+    .flexIt();
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 5% 0;
+    h2{
+        margin-bottom: 4%
+    }
+    .newFeatures{
+        .flexIt();
+        justify-content: space-evenly;
 
+        .newFeature{
+            padding: 1%;
+            max-width: 30%;
+            text-align: center;
+            border: 2px solid @peach;
+            border-radius: 5px;
+        }
 
+    }
+}
